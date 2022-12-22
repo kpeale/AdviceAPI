@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;500;600;800&display=swap');
+
+*,
+*::after,
+*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+}
+
+body{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    background-color: hsl(218, 23%, 16%);
+}
+
+.adviceGenerator__container{
+    background-color:  hsl(217, 19%, 24%);
+    border-radius: 10px;
+    width: 70%;
+    max-width: 1100px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+    align-items: center;
+    margin: 5em 5em 5em 3em;
+
+      
+}
+
+.adviceGenerator__headingbx{
+    color: hsl(150, 100%, 66%);
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.adviceGenerator__parabx{
+    color: hsl(193, 38%, 86%);
+    width: 70%;
+    margin-bottom: 1em;
+    
+}
+
+.adviceGenerator__imgbx{
+    margin-bottom: 1em;
+}
+
+.adviceGenerator__dice-bx{
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    background-color: hsl(150, 100%, 66%);
+   margin-bottom: -1.5em;
+}
+
+.adviceGenerator__dice{
+    width: 20px;
+    margin-bottom: -1em;
+    margin-left: 14px;
+}
+
+/* media queries for 900px */
+@media screen and (min-width: 900px) {
+
+    .adviceGenerator__container{
+        background-color:  hsl(217, 19%, 24%);
+        border-radius: 10px;
+        width: 60%;
+        max-width: 1100px;
+        margin: 5em auto;
+    
+          
+    }
+    .adviceGenerator__parabx{
+        color: hsl(193, 38%, 86%);
+        width: 60%;
+        
+    }
+}
+
